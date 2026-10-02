@@ -93,3 +93,9 @@ For AMD cpu's (Zen 2 and above)
 ```
 amd_pstate=guided
 ```
+
+Then run
+
+```
+sudo grub-mkconfig /boot/grub/grub.cfg
+```
