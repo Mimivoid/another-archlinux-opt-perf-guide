@@ -48,6 +48,16 @@ Include = /etc/pacman.d/mirrorlist
 
 Note, I've included the original arch repositories because of certain missing packages.
 
+### Kernel
+
+I recommend installing linux-cachyos linux-cachyos-headers then running the following command to ensure it's in grub
+
+Note this command varies depending on how you've installed grub
+
+```
+sudo grub-mkconfig /boot/grub/grub.cfg
+```
+
 ### Wayland
 
 #### Enabling Vulkan on a Compositor
