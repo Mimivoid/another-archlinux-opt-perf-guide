@@ -1,5 +1,9 @@
 ## Disclaimer
-This is a work in progress. Please let me know of any issues you have in the Issues section.
+
+This is a work in progress. 
+
+Please let me know of any issues you have in the Issues section to help me further revise this guide.
+
 ## Where to start?
 
 ### Repositories
