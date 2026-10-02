@@ -25,13 +25,13 @@ When you're done installing the repositories, configure /etc/pacman.conf to be a
 
 ```
 [cachyos]
-Include = /etc/pacman.d/cachyos-v3-mirrorlist
+Include = /etc/pacman.d/cachyos-mirrorlist
 
 [cachyos-core]
-Include = /etc/pacman.d/cachyos-v3-mirrorlist
+Include = /etc/pacman.d/cachyos-mirrorlist
 
 [cachyos-extra]
-Include = /etc/pacman.d/cachyos-v3-mirrorlist
+Include = /etc/pacman.d/cachyos-mirrorlist
 
 [multilib-x86-64]
 Include = /etc/pacman.d/alhp-mirrorlist
