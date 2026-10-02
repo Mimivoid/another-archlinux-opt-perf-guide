@@ -2,7 +2,7 @@
 
 This is a work in progress. 
 
-Please let me know of any issues you have in the issues section to help me further revise this guide.
+Please let me know of any issues you have in the issues section to help me further revise this guide or become apart of building this guide.
 
 ## Where to start?
 
