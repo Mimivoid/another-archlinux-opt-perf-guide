@@ -1,6 +1,8 @@
 ## Disclaimer
 
-This is a work in progress. 
+This is not affiliated with official archlinux things.
+
+This is a work in progress.
 
 Please let me know of any issues you have in the issues section to help me further revise this guide or become apart of building this guide.
 
