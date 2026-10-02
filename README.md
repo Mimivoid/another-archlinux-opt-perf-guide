@@ -96,6 +96,44 @@ Edit /etc/environment and append to the file
 WLR_RENDERER=vulkan
 ```
 
+### Environment Variables
+
+Edit and append these variables to /etc/environment of your choosing
+
+#### Important variables
+
+Sets the shader cache size in gigabytes
+```
+MESA_SHADER_CACHE_MAX_SIZE=50G
+```
+
+Sets the SDL video driver to wayland
+```
+SDL_VIDEODRIVER=wayland
+```
+
+Set this to a previous, current or later year of when your GPU was made
+```
+MESA_EXTENSION_MAX_YEAR=2020
+```
+
+Sets LIBGL to direct because indirect has performance reductions
+```
+LIBGL_ALWAYS_INDIRECT=0
+```
+
+#### Vulkan Mesa related variables
+
+Generally good to enable for multi-core processors
+```
+MESA_VK_ENABLE_SUBMIT_THREAD=1
+```
+
+Sets the vsync layer off for gaming, vsync will still work for games
+```
+MESA_VK_WSI_PRESENT_MODE=immediate
+```
+
 ### GRUB Configuration
 
 Edit /etc/default/grub and append to GRUB_CMDLINE_LINUX_DEFAULT
