@@ -122,6 +122,11 @@ Sets LIBGL to direct because indirect has performance reductions
 LIBGL_ALWAYS_INDIRECT=0
 ```
 
+Sets the mesa vsync layer to off, vsync still works for games
+```
+vblank_mode=0
+```
+
 #### Vulkan Mesa related variables
 
 Generally good to enable for multi-core processors
@@ -129,9 +134,21 @@ Generally good to enable for multi-core processors
 MESA_VK_ENABLE_SUBMIT_THREAD=1
 ```
 
-Sets the vsync layer off for gaming, vsync will still work for games
+Sets the vsync layer off for gaming, vsync still works for games
 ```
 MESA_VK_WSI_PRESENT_MODE=immediate
+```
+
+#### RADV related variables
+
+This is for AMD GPU's only
+
+These variables may work, could vary from system to system
+
+```
+AMD_VULKAN_ICD=RADV
+ACO_DEBUG='novalidate'
+RADV_PERFTEST='lowlatencydec,localbos,cswave32,gewave32'
 ```
 
 ### GRUB Configuration
