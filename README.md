@@ -78,7 +78,7 @@ No kernel logging grub options
 loglevel=0 quiet audit=0
 ```
 
-For AMD cpu's
+For AMD cpu's (Zen 2 and above)
 
 ```
 amd_pstate=guided
