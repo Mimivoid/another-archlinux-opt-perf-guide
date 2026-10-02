@@ -46,6 +46,16 @@ Include = /etc/pacman.d/mirrorlist
 Include = /etc/pacman.d/mirrorlist
 ```
 
+Setting it to your arch for example, if it's x86-64-v3 then
+
+```
+[cachyos-v3]
+Include = /etc/pacman.d/cachyos-v3-mirrorlist
+
+[multilib-x86-64-v3]
+Include = /etc/pacman.d/alhp-mirrorlist
+```
+
 Note, I've included the original arch repositories because of certain missing packages.
 
 ### Kernel
