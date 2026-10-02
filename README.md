@@ -56,6 +56,12 @@ Include = /etc/pacman.d/cachyos-v3-mirrorlist
 Include = /etc/pacman.d/alhp-mirrorlist
 ```
 
+After these are installed run this command
+
+```
+sudo pacman -Syu
+```
+
 Note, I've included the original arch repositories because of certain missing packages.
 
 ### Kernel
