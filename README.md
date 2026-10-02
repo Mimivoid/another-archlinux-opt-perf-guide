@@ -21,7 +21,7 @@ https://wiki.cachyos.org/features/optimized_repos/#adding-our-repositories-to-an
 
 [https://github.com/an0nfunc/ALHP#quick-start](url)
 
-When you're done installing the repositories, configure /etc/pacman.conf to look like this:
+When you're done installing the repositories, configure /etc/pacman.conf to look like this although this is an example x86-64 repo layout
 
 ```
 [cachyos]
