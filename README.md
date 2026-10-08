@@ -176,3 +176,11 @@ Then run
 ```
 sudo grub-mkconfig /boot/grub/grub.cfg
 ```
+
+### Useful links
+
+Related to AMDGPU's
+[https://docs.mesa3d.org/drivers/radv.html](url)
+
+Related to all GPU's
+[https://docs.mesa3d.org/envvars.html](url)
