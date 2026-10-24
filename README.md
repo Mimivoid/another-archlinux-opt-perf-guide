@@ -77,7 +77,7 @@ I recommend installing **linux-cachyos** and **linux-cachyos-headers** then runn
 Note this command varies depending on how you've installed grub
 
 ```
-sudo grub-mkconfig /boot/grub/grub.cfg
+sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
 ### Wayland
@@ -174,7 +174,7 @@ amd_pstate=guided
 Then run
 
 ```
-sudo grub-mkconfig /boot/grub/grub.cfg
+sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
 ### Useful links
